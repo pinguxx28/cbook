@@ -9,7 +9,7 @@
 int get_line(char line[], int max);
 
 /* replace tabs in line, with spacesymbol until next tabstop */
-void detab(char new[], char line[], int len, int max, int ts, int spacesymbol);
+void detab(char new[], char line[], int len, int max, int ts, char spacesymbol);
 
 int main()
 {
