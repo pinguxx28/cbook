@@ -2,7 +2,7 @@
 
 void str_cpy(char *s, char *t)
 {
-	while ((*s++ = *t++) != '\0');
+	while (*s++ = *t++);
 }
 
 int main()
