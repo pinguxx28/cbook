@@ -10,4 +10,3 @@ CFLAGS="-std=c89 -lm"
 set -xe
 $CC $FILE $OUTPUT $CFLAGS
 ./$OUTPUT_FILE
-rm $OUTPUT_FILE
